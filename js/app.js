@@ -1,43 +1,43 @@
+const container=document.getElementById("channels")
+
 let channels=[]
-let currentIndex=0
 
-async function loadChannels(){
+fetch(API_CHANNELS)
 
-const r=await fetch(API+"/channels")
+.then(res=>res.json())
 
-const data=await r.json()
+.then(data=>{
 
 channels=data.channels
 
 renderChannels(channels)
 
-}
+})
 
 function renderChannels(list){
 
-const el=document.getElementById("channels")
+container.innerHTML=""
 
-el.innerHTML=""
-
-list.forEach((c,i)=>{
+list.forEach(ch=>{
 
 const card=document.createElement("div")
 
-card.className="channel-card"
-
-card.id="ch-"+c.id
+card.className="channel"
 
 card.innerHTML=`
-<b>${c.name}</b><br>
-<small>${c.artist}</small>
+
+<div class="logo">📻</div>
+
+<h3>${ch.name}</h3>
+
+<p>${ch.artist}</p>
+
 `
 
-card.onclick=()=>playChannel(i)
+card.onclick=()=>playChannel(ch,card)
 
-el.appendChild(card)
+container.appendChild(card)
 
 })
 
 }
-
-loadChannels()
