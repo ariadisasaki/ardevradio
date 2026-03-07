@@ -8,6 +8,12 @@ background:#0b0b0b;
 
 color:white;
 
+height:100vh;
+
+display:flex;
+
+flex-direction:column;
+
 }
 
 
@@ -18,6 +24,14 @@ color:white;
 max-width:500px;
 
 margin:auto;
+
+width:100%;
+
+display:flex;
+
+flex-direction:column;
+
+height:100vh;
 
 }
 
@@ -44,69 +58,20 @@ box-shadow:0 2px 10px rgba(0,0,0,0.5);
 
 }
 
-/* PLAYER */
-
-.player{
-
-background:#181818;
-
-margin:15px;
-
-padding:15px;
-
-border-radius:14px;
-
-display:flex;
-
-justify-content:space-between;
-
-align-items:center;
-
-}
-
-
-.player-info{
-
-display:flex;
-
-align-items:center;
-
-gap:10px;
-
-}
-
-
-.player-logo{
-
-font-size:30px;
-
-}
-
-
-.controls button{
-
-background:#ff7a00;
-
-border:none;
-
-padding:8px 12px;
-
-font-size:18px;
-
-border-radius:8px;
-
-color:white;
-
-cursor:pointer;
-
-}
-
 
 /* SEARCH */
 
 .search{
 
-padding:0 15px 15px 15px;
+position:sticky;
+
+top:90px;
+
+z-index:900;
+
+background:#0b0b0b;
+
+padding:15px;
 
 }
 
@@ -127,9 +92,11 @@ box-sizing:border-box;
 }
 
 
-/* CHANNEL GRID */
+/* CHANNEL LIST */
 
 .channel-grid{
+
+flex:1;
 
 display:grid;
 
@@ -137,9 +104,7 @@ grid-template-columns:repeat(2,1fr);
 
 gap:12px;
 
-padding:0 15px 20px 15px;
-
-height:60vh;
+padding:10px 15px 80px 15px;
 
 overflow-y:auto;
 
@@ -164,17 +129,87 @@ transition:.2s;
 
 }
 
-
 .channel:hover{
 
 background:#2a2a2a;
 
 }
 
-
 .channel.active{
 
 background:#ff7a00;
+
+}
+
+
+/* PLAYER */
+
+.player{
+
+position:fixed;
+
+bottom:0;
+
+left:0;
+
+right:0;
+
+max-width:500px;
+
+margin:auto;
+
+background:#181818;
+
+padding:15px;
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+border-top:1px solid #333;
+
+}
+
+
+/* PLAYER INFO */
+
+.player-info{
+
+display:flex;
+
+align-items:center;
+
+gap:10px;
+
+}
+
+
+.player-logo{
+
+font-size:30px;
+
+}
+
+
+/* BUTTON */
+
+.controls button{
+
+background:#ff7a00;
+
+border:none;
+
+padding:10px 14px;
+
+font-size:18px;
+
+border-radius:8px;
+
+color:white;
+
+cursor:pointer;
 
 }
 
@@ -214,12 +249,6 @@ animation:eq 1s infinite;
 50%{height:22px}
 
 100%{height:6px}
-
-}
-
-.hidden{
-
-display:none;
 
 }
 
