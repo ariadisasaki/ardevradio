@@ -52,27 +52,37 @@ font-size:16px;
 /* GRID */
 
 .channel-grid{
-.channel-grid{
 
-display:flex;
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
 
 gap:12px;
 
 padding:15px;
 
-overflow-x:auto;
+height:65vh;
 
-scroll-snap-type:x mandatory;
+overflow-y:auto;
 
 }
+
 
 /* CARD */
 
 .channel{
 
-min-width:150px;
+background:#1a1a1a;
 
-scroll-snap-align:start;
+border-radius:16px;
+
+padding:20px;
+
+text-align:center;
+
+cursor:pointer;
+
+transition:.2s;
 
 }
 
