@@ -1,46 +1,43 @@
-let playlist = [
-  {title:"NGANGGUR",artist:"Masdddho",id:"radio1"},
-  {title:"Ku Rela Kau Pilih Dia",artist:"Hari Putra",id:"radio2"},
-  {title:"Sembuhkan Luka",artist:"Owan",id:"radio3"}
-];
+let channels=[]
+let currentIndex=0
 
-let index = 0;
-const list = document.getElementById("playlist");
+async function loadChannels(){
 
-function render(){
-  list.innerHTML = "";
-  playlist.forEach((s,i)=>{
-    let div = document.createElement("div");
-    div.className = "song";
-    if(i === index) div.classList.add("active");
-    div.innerHTML = `${i+1}. ${s.title}<br><small>${s.artist}</small>`;
-    div.onclick = () => {
-      index = i;
-      load();
-    }
-    list.appendChild(div);
-  });
+const r=await fetch(API+"/channels")
+
+const data=await r.json()
+
+channels=data.channels
+
+renderChannels(channels)
+
 }
 
-async function load(){
-  let id = playlist[index].id;
-  let r = await fetch(API_URL + "/api/stream/" + id);
-  let j = await r.json();
-  play(j.url);
-  render();
+function renderChannels(list){
+
+const el=document.getElementById("channels")
+
+el.innerHTML=""
+
+list.forEach((c,i)=>{
+
+const card=document.createElement("div")
+
+card.className="channel-card"
+
+card.id="ch-"+c.id
+
+card.innerHTML=`
+<b>${c.name}</b><br>
+<small>${c.artist}</small>
+`
+
+card.onclick=()=>playChannel(i)
+
+el.appendChild(card)
+
+})
+
 }
 
-document.getElementById("play").onclick = toggle;
-document.getElementById("next").onclick = ()=>{
-  index++;
-  if(index >= playlist.length) index=0;
-  load();
-};
-document.getElementById("prev").onclick = ()=>{
-  index--;
-  if(index < 0) index=playlist.length-1;
-  load();
-};
-
-render();
-load();
+loadChannels()
