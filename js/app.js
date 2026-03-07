@@ -34,6 +34,13 @@ card.innerHTML=`
 <p>${ch.artist}</p>
 
 `
+if(list.length===0){
+
+container.innerHTML="<p style='text-align:center'>Channel tidak tersedia</p>"
+
+return
+
+}
 
 card.onclick=()=>playChannel(ch,card,index)
 
