@@ -1,14 +1,18 @@
-function updateClock() {
-  const hari = ["Minggu","Senin","Selasa","Rabu","Kamis","Jumat","Sabtu"];
-  const bulan = ["Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","November","Desember"];
+function updateClock(){
 
-  const now = new Date();
-  const d = `${hari[now.getDay()]}, ${now.getDate()} ${bulan[now.getMonth()]} ${now.getFullYear()}`;
-  const t = `Pkl. ${now.toLocaleTimeString('id-ID')}`;
+const now=new Date()
 
-  document.getElementById("date").innerText = d;
-  document.getElementById("clock").innerText = t;
+document.getElementById("tanggal")
+.innerText=now.toLocaleDateString("id-ID",{
+weekday:"long",
+year:"numeric",
+month:"long",
+day:"numeric"
+})
+
+document.getElementById("jam")
+.innerText="Pkl. "+now.toLocaleTimeString()
+
 }
 
-setInterval(updateClock,1000);
-updateClock();
+setInterval(updateClock,1000)
