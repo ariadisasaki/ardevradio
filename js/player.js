@@ -1,22 +1,38 @@
-const audio=new Audio()
+const audio=document.getElementById("audio")
 
-function playChannel(i){
+const playerBar=document.getElementById("playerBar")
 
-currentIndex=i
+const playerTitle=document.getElementById("playerTitle")
 
-const c=channels[i]
+const playBtn=document.getElementById("playBtn")
 
-audio.src=API+"/play?id="+c.id
+const equalizer=document.getElementById("equalizer")
+
+let activeCard=null
+
+function playChannel(ch,card){
+
+audio.src=API_PLAY+"?id="+ch.id
 
 audio.play()
 
-highlight()
+playerBar.classList.remove("hidden")
 
-localStorage.setItem("lastChannel",i)
+playerTitle.innerText=ch.name
 
-showEqualizer()
+equalizer.classList.remove("hidden")
 
-showMini(c.name)
+playBtn.innerText="⏸"
+
+if(activeCard){
+
+activeCard.classList.remove("active")
+
+}
+
+card.classList.add("active")
+
+activeCard=card
 
 }
 
@@ -26,65 +42,18 @@ if(audio.paused){
 
 audio.play()
 
-showEqualizer()
+playBtn.innerText="⏸"
+
+equalizer.classList.remove("hidden")
 
 }else{
 
 audio.pause()
 
-hideEqualizer()
+playBtn.innerText="▶"
+
+equalizer.classList.add("hidden")
 
 }
-
-}
-
-function nextChannel(){
-
-currentIndex++
-
-if(currentIndex>=channels.length)currentIndex=0
-
-playChannel(currentIndex)
-
-}
-
-function prevChannel(){
-
-currentIndex--
-
-if(currentIndex<0)currentIndex=channels.length-1
-
-playChannel(currentIndex)
-
-}
-
-function highlight(){
-
-document.querySelectorAll(".channel-card")
-.forEach(e=>e.classList.remove("active"))
-
-const id="ch-"+channels[currentIndex].id
-
-const el=document.getElementById(id)
-
-if(el) el.classList.add("active")
-
-}
-
-function showMini(name){
-
-const m=document.getElementById("miniPlayer")
-
-document.getElementById("miniTitle").innerText=name
-
-m.classList.remove("hidden")
-
-}
-
-window.onload=()=>{
-
-const last=localStorage.getItem("lastChannel")
-
-if(last) playChannel(last)
 
 }
