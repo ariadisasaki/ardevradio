@@ -1,12 +1,14 @@
-document
-.getElementById("search")
-.addEventListener("input",function(){
+const search=document.getElementById("search")
 
-const q=this.value.toLowerCase()
+search.addEventListener("input",()=>{
 
-const filtered=channels.filter(c=>
+const keyword=search.value.toLowerCase()
 
-c.name.toLowerCase().includes(q)
+const filtered=channels.filter(ch=>
+
+ch.name.toLowerCase().includes(keyword) ||
+
+ch.artist.toLowerCase().includes(keyword)
 
 )
 
