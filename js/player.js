@@ -1,30 +1,28 @@
-const audio = document.getElementById("audio")
+const audio=document.getElementById("audio")
 
-const playerTitle = document.getElementById("playerTitle")
+const playerTitle=document.getElementById("playerTitle")
 
-const playBtn = document.getElementById("playBtn")
+const playBtn=document.getElementById("playBtn")
 
-const equalizer = document.getElementById("equalizer")
+const equalizer=document.getElementById("equalizer")
 
-let currentIndex = -1
+let currentIndex=-1
 
 
-
-/* PLAY CHANNEL */
 
 function playChannel(ch,card,index){
 
-audio.src = API_PLAY + "?id=" + ch.id
+audio.src=API_PLAY+"?id="+ch.id
 
 audio.play()
 
-playerTitle.innerText = ch.name
+playerTitle.innerText=ch.name
 
-playBtn.innerText = "⏸"
+playBtn.innerText="⏸"
 
 equalizer.classList.remove("hidden")
 
-currentIndex = index
+currentIndex=index
 
 localStorage.setItem("lastChannel",index)
 
@@ -32,11 +30,9 @@ localStorage.setItem("lastChannel",index)
 
 
 
-/* PLAY / PAUSE */
-
 function togglePlay(){
 
-if(currentIndex === -1 && channels.length>0){
+if(currentIndex===-1 && channels.length>0){
 
 playChannel(channels[0],null,0)
 
@@ -66,8 +62,6 @@ equalizer.classList.add("hidden")
 
 
 
-/* NEXT CHANNEL */
-
 function nextChannel(){
 
 currentIndex++
@@ -83,8 +77,6 @@ playChannel(channels[currentIndex],null,currentIndex)
 }
 
 
-
-/* PREVIOUS CHANNEL */
 
 function prevChannel(){
 
@@ -108,7 +100,7 @@ window.addEventListener("load",()=>{
 
 let last=localStorage.getItem("lastChannel")
 
-if(last!==null && channels.length>0){
+if(last!==null){
 
 currentIndex=parseInt(last)
 
