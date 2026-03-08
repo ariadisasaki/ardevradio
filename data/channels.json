@@ -1,0 +1,16 @@
+{
+  "channels":[
+    {
+      "id":"radio_rdi",
+      "name":"RADIO DANGDUT INDONESIA",
+      "artist":"RDI JAKARTA",
+      "stream":"https://free.rcast.net/8328"
+    },
+    {
+      "id":"radio_ppi",
+      "name":"RADIO PPI DUNIA",
+      "artist":"PPI DUNIA",
+      "stream":"https://radioppi.uplandlotim.workers.dev/"
+    }
+  ]
+}
