@@ -22,7 +22,7 @@
       "id":"radio_v",
       "name":"V RADIO JAKARTA",
       "artist":"",
-      "stream":"https://proxystream.ariadishut.workers.dev/?url=http://202.147.199.100:8000/;"
+      "stream":"http://202.147.199.100:8000/;?type=http&nocache=214"
     },
 	{
       "id":"radio_dreamers",
@@ -31,10 +31,16 @@
       "stream":"https://proxystream.ariadishut.workers.dev/?url=https://live.dreamers.id:8443/live"
     },
 	{
-      "id":"radio_dreamers",
+      "id":"radio_sonora",
       "name":"SONORA FM JAKARTA",
       "artist":"",
-      "stream":"https://proxystream.ariadishut.workers.dev/?url=https://cast1.my-control-panel.com/proxy/radioso1/stream"
+      "stream":"https://proxystream.ariadishut.workers.dev/?url=https://cast1.my-control-panel.com/proxy/radioso1/live"
+    },
+	{
+      "id":"radio_sonoradj",
+      "name":"SONORA DJFM JAKARTA",
+      "artist":"",
+      "stream":"https://proxystream.ariadishut.workers.dev/?url=https://cast1.my-control-panel.com/proxy/radioso1/autodj"
     },
 	{
       "id":"radio_kita",
