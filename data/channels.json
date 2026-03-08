@@ -31,10 +31,28 @@
       "stream":"https://live.dreamers.id:8443/live"
     },
 	{
-      "id":"radio_sonora",
+      "id":"radio_dreamers",
       "name":"SONORA FM JAKARTA",
       "artist":"",
       "stream":"https://cast1.my-control-panel.com/proxy/radioso1/stream"
+    },
+	{
+      "id":"radio_kita",
+      "name":"RADIO KITA BANDUNG",
+      "artist":"",
+      "stream":"https://radiokita.radio.yufid.com/;"
+    },
+	{
+      "id":"radio_star",
+      "name":"STAR RADIO BANDUNG",
+      "artist":"",
+      "stream":"http://listen.staradio1073fm.net:8070/;"
+    },
+	{
+      "id":"kita_cirebon",
+      "name":"RADIO KITA CIREBON",
+      "artist":"",
+      "stream":"http://live.radiosunnah.net/;"
     }
   ]
 }
