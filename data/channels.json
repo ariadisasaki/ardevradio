@@ -2,225 +2,345 @@
   "channels":[
     {
       "id":"r1",
-      "name":"RADIO DANGDUT INDONESIA",
-      "artist":"",
+      "name":"RDI 97.1 FM",
+      "artist":"Jakarta Pusat",
       "stream":"https://free.rcast.net/8328"
     },
     {
       "id":"r2",
-      "name":"RADIO PPI DUNIA",
-      "artist":"",
+      "name":"PPI DUNIA",
+      "artist":"Dunia",
       "stream":"https://radioppi.uplandlotim.workers.dev/"
-    },
-    {
-      "id":"rripro2",
-      "name":"RRI PRO 2 MATARAM",
-      "artist":"",
-      "stream":"https://radioppi.uplandlotim.workers.dev/"
-    },
-    {
-      "id":"saturadio",
-      "name":"SATU RADIO LOMBOK",
-      "artist":"",
-      "stream":"https://assunnah.radio.yufid.com/;"
     },
     {
       "id":"r3",
-      "name":"RADIO MUARA JAKARTA",
-      "artist":"",
-      "stream":"https://ssg.streamingmurah.com:8778/stream"
+      "name":"SATU RADIO 105.4 FM",
+      "artist":"Lombok Timur",
+      "stream":"https://assunnah.radio.yufid.com/;"
     },
-	{
-      "id":"r4",
-      "name":"V RADIO JAKARTA",
-      "artist":"",
-      "stream":"http://202.147.199.100:8000/stream"
+    {
+      "id":"xxx",
+      "name":"STAR 107.3 FM",
+      "artist":"Tangerang",
+      "stream":"https://listen.staradio1073fm.net/stream"
     },
-	{
-      "id":"r5",
-      "name":"DREAMERS RADIO JAKARTA",
-      "artist":"",
-      "stream":"https://live.dreamers.id:8443/live"
+    {
+      "id":"xxx",
+      "name":"RDK FM",
+      "artist":"Tangerang Selatan",
+      "stream":"https://a1.siar.us/listen/rdk/autodj.mp3"
     },
-	{
-      "id":"r6",
-      "name":"SONORA FM JAKARTA",
-      "artist":"",
-      "stream":"https://cast1.my-control-panel.com/proxy/radioso1/live"
+    {
+      "id":"xxx",
+      "name":"RADIO KESEHATAN",
+      "artist":"Jakarta Selatan",
+      "stream":"https://pu.klikhost.com/proxy/kemkes/stream"
     },
-	{
-      "id":"r7",
-      "name":"SONORA DJFM JAKARTA",
-      "artist":"",
-      "stream":"https://cast1.my-control-panel.com/proxy/radioso1/autodj"
+    {
+      "id":"xxx",
+      "name":"KRAKATAU 93.7 FM",
+      "artist":"Pandeglang",
+      "stream":"https://fpsnew1.listen2myradio.com:2199/listen.php?ip=82.145.63.6&port=5914&type=s1"
     },
-	{
-      "id":"r8",
-      "name":"RADIO KITA BANDUNG",
-      "artist":"",
-      "stream":"https://radiokita.radio.yufid.com/;"
+    {
+      "id":"xxx",
+      "name":"RRI PRO 1 BANTEN 94.9 FM",
+      "artist":"Serang",
+      "stream":"https://stream.xradio.co.id/xchannelsrg"
     },
-	{
-      "id":"r9",
-      "name":"STAR RADIO BANDUNG",
-      "artist":"",
-      "stream":"http://listen.staradio1073fm.net:8070/stream"
+    {
+      "id":"xxx",
+      "name":"MULTATULI 89.0 FM",
+      "artist":"Rangkasbitung",
+      "stream":"https://streaming.multatulifm.lebakkab.go.id/stream"
     },
-	{
-      "id":"r10",
-      "name":"RADIO KITA CIREBON",
-      "artist":"",
-      "stream":"http://live.radiosunnah.net/stream"
+    {
+      "id":"xxx",
+      "name":"RTC UI 107.9 FM",
+      "artist":"Depok",
+      "stream":"https://stream.pamula.xyz/listen/rtc_ui/radio.mp3"
     },
-	{
-      "id":"r11",
-      "name":"RADIO RJFM SUKABUMI",
-      "artist":"",
-      "stream":"https://a4.siar.us/listen/rjfm/rjfm"
+    {
+      "id":"xxx",
+      "name":"SAYANG QUR'AN",
+      "artist":"Depok",
+      "stream":"https://radio.sayangquran.com/listen/radiosq/radio.mp3"
     },
-	{
-      "id":"r12",
-      "name":"RETJO BUNTUNG JOGJA",
-      "artist":"",
-      "stream":"http://scg.streamingmurah.com:9940/stream"
+    {
+      "id":"xxx",
+      "name":"X CHANNEL 93.6 FM",
+      "artist":"Bekasi",
+      "stream":"https://stream.xradio.co.id/xchannelbks"
     },
-	{
-      "id":"r13",
-      "name":"SUARA QURÁN KARANGANYAR",
-      "artist":"",
-      "stream":"http://live.mp3quran.net:9784/stream"
+    {
+      "id":"xxx",
+      "name":"MEGASWARA 100.8 FM",
+      "artist":"Bogor",
+      "stream":"https://server.adyadigitalteknologi.com:8010/1/;"
     },
-	{
-      "id":"r14",
-      "name":"BASS FM SALATIGA",
-      "artist":"",
-      "stream":"https://bassfm.radio.yufid.com/;"
+    {
+      "id":"xxx",
+      "name":"PASUNDAN 96.2 FM",
+      "artist":"Cianjur",
+      "stream":"https://stream.pasopatiradio.com/pasundan"
     },
-	{
-      "id":"r15",
-      "name":"ERLISA FM SALATIGA",
-      "artist":"",
-      "stream":"https://a4.siar.us/radio/8360/radio.mp3"
+    {
+      "id":"xxx",
+      "name":"TREND DAKWAH 101.2 FM",
+      "artist":"Purwakarta",
+      "stream":"https://ars.mitradio.com:8090/radio.mp3"
     },
-	{
-      "id":"r16",
-      "name":"M RADIO SURABAYA",
-      "artist":"",
-      "stream":"https://c4.siar.us:8026/stream"
+    {
+      "id":"xxx",
+      "name":"METRUM RADIO",
+      "artist":"Bandung",
+      "stream":"https://ssg.streamingmurah.com:8400/;"
     },
-	{
-      "id":"r17",
-      "name":"KISS FM JEMBER",
-      "artist":"",
-      "stream":"https://i.klikhost.com/8894/stream"
+    {
+      "id":"xxx",
+      "name":"GITA PANTURA 92.6 FM",
+      "artist":"Subang",
+      "stream":"https://stream.pasopatiradio.com/gitapanturafm"
     },
-	{
-      "id":"r18",
-      "name":"ROSALINA FM JEMBER",
-      "artist":"",
-      "stream":"https://i.klikhost.com/8618/;stream.aac"
+    {
+      "id":"xxx",
+      "name":"MUARA DSS 102.1 FM",
+      "artist":"Subang",
+      "stream":"https://ssg.streamingmurah.com:8668/stream"
     },
-	{
-      "id":"r19",
-      "name":"GEMA SURYA PONOROGO",
-      "artist":"",
-      "stream":"https://r5.siar.us:9420/aac.m4a?_=1"
+    {
+      "id":"xxx",
+      "name":"DESOE 87.6 FM",
+      "artist":"Cianjur",
+      "stream":"https://stream.pasopatiradio.com/desoefm"
     },
-	{
-      "id":"r20",
-      "name":"SMART FM MANADO",
-      "artist":"",
-      "stream":"https://cast2.my-control-panel.com/proxy/radios14/stream"
+    {
+      "id":"xxx",
+      "name":"MEDINA 105.3 FM",
+      "artist":"Wanaraja",
+      "stream":"https://stream.yaomiakba.com/medinafmgarut.ogg"
     },
-	{
-      "id":"r21",
-      "name":"TRENDY FM MANADO",
-      "artist":"",
-      "stream":"https://i.klikhost.com/8018/stream"
+    {
+      "id":"xxx",
+      "name":"MAJALENGKA 93.1 FM",
+      "artist":"Majalengka",
+      "stream":"https://radioislamindonesia.com/rodja-majalengka.mp3"
     },
-	{
-      "id":"r22",
-      "name":"KUMALA FM SAMARINDA",
-      "artist":"",
-      "stream":"https://ina.vinhostmedia.com:8000/kumalaradio"
+    {
+      "id":"xxx",
+      "name":"GALUH 89.5 FM",
+      "artist":"Tasikmalaya",
+      "stream":"https://stream.yaomiakba.com/galuhfm"
     },
-	{
-      "id":"r23",
-      "name":"PARAS FM SAMARINDA",
-      "artist":"",
-      "stream":"https://ina.vinhostmedia.com:8000/parasfmsmd"
+    {
+      "id":"xxx",
+      "name":"RADIO QU 104.8 FM",
+      "artist":"Kuningan",
+      "stream":"https://live.radioqukuningan.com/;"
     },
-	{
-      "id":"r24",
-      "name":"SMART FM BALIKPAPAN",
-      "artist":"",
-      "stream":"https://cast3.asurahosting.com/proxy/radios32/stream"
+    {
+      "id":"xxx",
+      "name":"PASOPATI 107.9 FM",
+      "artist":"Majenang",
+      "stream":"https://stream.pasopatiradio.com/pasopati"
     },
-	{
-      "id":"r25",
-      "name":"RADIO SUARA BANJARMASIN",
-      "artist":"",
-      "stream":"http://103.136.182.117:8000/stream"
+    {
+      "id":"xxx",
+      "name":"TSANIA 101.8 FM",
+      "artist":"Bumiayu",
+      "stream":"https://a10.siar.us/radio/8280/radio.mp3"
     },
-	{
-      "id":"r26",
-      "name":"RADIO SUN BANJARMASIN",
-      "artist":"",
-      "stream":"https://a1.siar.us/radio/8440/radio.mp3"
+    {
+      "id":"xxx",
+      "name":"CITRA AMILIA 93.5 FM",
+      "artist":"Bumiayu",
+      "stream":"https://stream.pasopatiradio.com/citraamiliafm"
     },
-	{
-      "id":"r27",
-      "name":"RADIO SUSHI PADANG",
-      "artist":"",
-      "stream":"https://stream2.jejestreaming.com:9200/stream"
+    {
+      "id":"xxx",
+      "name":"RIS FM 104.9 FM",
+      "artist":"Pangandaran",
+      "stream":"https://stream.risfmpangandaran.com/listen/ris_fm_pangandaran/radio.mp3"
     },
-	{
-      "id":"r28",
-      "name":"SERUMPUN RADIO BATAM",
-      "artist":"",
-      "stream":"https://a2.siar.us:8020/radio.mp3"
+    {
+      "id":"xxx",
+      "name":"NET RADIO",
+      "artist":"Cilacap",
+      "stream":"https://a3.siar.us/listen/net/Radio"
     },
-	{
-      "id":"r29",
-      "name":"RADIO TRIRAMA LAMPUNG",
-      "artist":"",
-      "stream":"http://i.klikhost.com:8706/;"
+    {
+      "id":"xxx",
+      "name":"UTARI 101.0 FM",
+      "artist":"Cilacap",
+      "stream":"https://s5.alhastream.com:8220/radio"
     },
-	{
-      "id":"r30",
-      "name":"RADIO GLOBAL FM",
-      "artist":"",
-      "stream":"http://202.147.199.98/stream"
+    {
+      "id":"xxx",
+      "name":"RRI PRO 1 93.1 FM",
+      "artist":"Purwokerto",
+      "stream":"https://stream-node0.rri.co.id/streaming/19/9119/rripurwokertopro1.mp3"
     },
-	{
-      "id":"r31",
-      "name":"RADIO ELSHINTA",
-      "artist":"",
-      "stream":"https://stream-ssl.arenastreaming.com:8000/jakarta"
+    {
+      "id":"xxx",
+      "name":"SALAFY PEMALANG",
+      "artist":"Pemalang",
+      "stream":"https://proxy.dev.al-faidah.com/stations/96.9.212.99/8150/radio.mp3?sid=1"
     },
-	{
-      "id":"r32",
-      "name":"SINDO TRIJAYA",
-      "artist":"",
-      "stream":"http://202.147.199.101:8000/stream"
+    {
+      "id":"xxx",
+      "name":"SEBAYU FM",
+      "artist":"Tegal",
+      "stream":"https://radio-streaming.tegalkota.go.id/stream.mp3"
     },
-	{
-      "id":"r33",
-      "name":"SUARA SONETA",
-      "artist":"",
-      "stream":"https://a2.siar.us/listen/suarasoneta/radio.mp3"
+    {
+      "id":"xxx",
+      "name":"BANJAR 93.4 FM",
+      "artist":"Banjarnegara",
+      "stream":"https://stream.pasopatiradio.com/banjarfm"
     },
-	{
-      "id":"r34",
-      "name":"RADIO TSANIA FM",
-      "artist":"",
-      "stream":"https://a10.siar.us:8280/radio.mp3"
+    {
+      "id":"xxx",
+      "name":"SWADESI 103.3 FM",
+      "artist":"Kebumen",
+      "stream":"https://stream.swadesifm.com/radio/8100/radio.mp3"
     },
-	{
-      "id":"r35",
-      "name":"RADIO MINHAJUS SALIHIN",
-      "artist":"",
-      "stream":"http://scg.streamingmurah.com:8170/stream"
+    {
+      "id":"xxx",
+      "name":"FAST 90.1 FM",
+      "artist":"Magelang",
+      "stream":"https://svara-stream.radioddns.net/magelang_fastfm_stereo"
+    },
+    {
+      "id":"xxx",
+      "name":"SUARA BANTUL 89.1 FM",
+      "artist":"Bantul",
+      "stream":"https://stream.swadesifm.com/radio/8130/radio.mp3"
+    },
+    {
+      "id":"xxx",
+      "name":"ELISA 103.9 FM",
+      "artist":"Salatiga",
+      "stream":"https://pu.klikhost.com/proxy/elisafm/stream"
+    },
+    {
+      "id":"xxx",
+      "name":"JENG SRI 107.2 FM",
+      "artist":"Klaten",
+      "stream":"https://c4.siar.us:8083/stream"
+    },
+    {
+      "id":"xxx",
+      "name":"RADIO GENTARA",
+      "artist":"Wonogiri",
+      "stream":"https://stream-n1.gntr.net/listen/radio_gentara/gentara.mp3"
+    },
+    {
+      "id":"xxx",
+      "name":"SUARA KUDUS 88 FM",
+      "artist":"Kudus",
+      "stream":"https://r2.siar.us:8700/suarakudus"
+    },
+    {
+      "id":"xxx",
+      "name":"PAS 101 FM",
+      "artist":"Pati",
+      "stream":"https://ssg.streamingmurah.com:8886/mp3/;"
+    },
+    {
+      "id":"xxx",
+      "name":"S RADIO",
+      "artist":"Rembang",
+      "stream":"https://stream.pasopatiradio.com/sradiorembang"
+    },
+    {
+      "id":"xxx",
+      "name":"YASMAGA 96.9 FM",
+      "artist":"Ponorogo",
+      "stream":"https://a12.siar.us:8070/stream"
+    },
+    {
+      "id":"xxx",
+      "name":"ISTANA 95.0 FM",
+      "artist":"Bojonegoro",
+      "stream":"https://ssg.streamingmurah.com:8150/system/player.js"
+    },
+    {
+      "id":"xxx",
+      "name":"BASS 96.6 FM",
+      "artist":"Bojonegoro",
+      "stream":"https://svara-stream.radioddns.net/bojonegoro_bassfm_"
+    },
+    {
+      "id":"xxx",
+      "name":"GEMA SURYA FM",
+      "artist":"Ponorogo",
+      "stream":"https://r5.siar.us:9420/mp3.mp3"
+    },
+    {
+      "id":"xxx",
+      "name":"RRI PRO 1 87.9 FM",
+      "artist":"Tuban",
+      "stream":"https://stream-node1.rri.co.id/streaming/41/9141/rritubanpro1.mp3"
+    },
+    {
+      "id":"xxx",
+      "name":"PERKASA 96.8 FM",
+      "artist":"Tulungagung",
+      "stream":"https://live1.indostreamserver.com:8056/stream"
+    },
+    {
+      "id":"xxx",
+      "name":"ANDIKA 105.7 FM",
+      "artist":"Kediri",
+      "stream":"https://r5.siar.us:1057/andikafm"
+    },
+    {
+      "id":"xxx",
+      "name":"GITA 97.4 FM",
+      "artist":"Jombang",
+      "stream":"https://svara-stream.radioddns.net/jombang_gitafm_"
+    },
+    {
+      "id":"xxx",
+      "name":"QOLBUN SALIM",
+      "artist":"Sidoarjo",
+      "stream":"https://ssg.streamingmurah.com:8306/stream/;"
+    },
+    {
+      "id":"xxx",
+      "name":"SHE 99.6 FM",
+      "artist":"Surabaya",
+      "stream":"https://a3.siar.us/listen/sheradio/stream"
+    },
+    {
+      "id":"xxx",
+      "name":"EMDI 93.0 FM",
+      "artist":"Probolinggo",
+      "stream":"https://ssg.streamingmurah.com:8022/stream/;"
+    },
+    {
+      "id":"xxx",
+      "name":"SALSABILA 94.1 FM",
+      "artist":"Sampang",
+      "stream":"https://stream-176.zeno.fm/pjkh2bmugl0vv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJwamtoMmJtdWdsMHZ2IiwiaG9zdCI6InN0cmVhbS0xNzYuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IlNtWUFNNFlTVFZxbWFQNmw0YlV1dlEiLCJpYXQiOjE3NzMyODY5NDQsImV4cCI6MTc3MzI4NzAwNH0.wZORWqW6Xm5C9Vo9_AU3Jmt2FTucd0x5yPsmDk4j-4A"
+    },
+    {
+      "id":"xxx",
+      "name":"X CHANNEL 96.2 FM",
+      "artist":"Pamekasan",
+      "stream":"https://stream.xradio.co.id/xchannelpmk"
+    },
+    {
+      "id":"xxx",
+      "name":"BHASA 93.1 FM",
+      "artist":"Situbondo",
+      "stream":"https://c1.siar.us:10888/stream"
+    },
+    {
+      "id":"xxx",
+      "name":"K RADIO 102.9 FM",
+      "artist":"Jember",
+      "stream":"https://stream-eu-nc.arenastreaming.com:6186/stream"
     }
   ]
 }
